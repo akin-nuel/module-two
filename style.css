@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+
+@media only screen and (min-width:992px){
+body{
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#container{
+    width:100%;
+    height:auto;
+    display:flex;
+}
+
+#container section{
+    margin:10px;
+    padding:0 20px;
+    border: 1px solid black;
+    width:30%;
+    height:auto;
+    color:#fff;
+}
+
+#container section .inner{
+    width:150px;
+    height:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 0;
+    border:1px solid black;
+}
+
+#container h3{
+    margin:0;
+    background-color: gray;
+    text-align:center;
+}
+
+#container #blue{
+    background-color: #000080;
+}
+
+
+#container #red{
+    background-color:#FF0000;
+}
+
+#container #green{
+    background-color:#034B03;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+body{
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#container section{
+    margin:10px;
+    padding:15px;
+    border: 1px solid black;
+    width:45%;
+    height:auto;
+    color:#fff;
+}
+
+#container section .inner{
+    width:150px;
+    height:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 0;
+    border:1px solid black;
+}
+
+#container h3{
+    margin:0;
+    background-color: gray;
+    
+}
+
+#container #blue{
+    background-color: #000080;
+}
+
+
+#container #red{
+    background-color:#FF0000;
+}
+
+#container #green{
+    background-color:#034B03;
+    width:100%;
+}
+
+
+}
+
+@media only screen and (max-width:767px){
+body{
+    width:100%;
+    height:auto;
+    padding:20px;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#container section{
+    margin:10px;
+    padding:15px;
+    border: 1px solid black;
+    width:100%;
+    height:auto;
+    color:#fff;
+}
+
+#container section .inner{
+    width:150px;
+    height:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 0;
+    border:1px solid black;
+}
+
+#container h3{
+    margin:0;
+    background-color: gray;
+    
+}
+
+#container #blue{
+    background-color: #000080;
+}
+
+
+#container #red{
+    background-color:#FF0000;
+}
+
+#container #green{
+    background-color:#034B03;
+    width:100%;
+}
+
+}
